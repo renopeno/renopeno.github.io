@@ -1,0 +1,33 @@
+# Site settings
+title: Renato Mandić - Personal website
+email: renato.mandic@gmail.com
+description: I'm Renato. I am Front End Developer and Designer based in Croatia. I'm always availible for freelance work. Contact me!
+url: "http://www.renatomandic.com" # the base hostname & protocol for your site
+twitter_username: iamrenopeno
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Renato
+      layout: "post"
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+# Gems
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "/blog/page/:num"

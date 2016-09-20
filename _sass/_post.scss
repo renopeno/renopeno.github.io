@@ -1,0 +1,181 @@
+// Post wrapper
+
+article.container.post {
+	margin-top: $header-height + $margin-xs;
+	padding: $margin-s;
+
+	background: $white;
+	border-radius: 5px;
+	border-bottom: 2px solid #ddd;
+}
+
+// Post content
+
+.post {
+	position: relative;
+	padding-top: $header-height;
+	margin: 0 auto $margin-s auto;
+	max-width: 768px;
+
+	p {
+		margin-bottom: $margin-s;
+
+		// typography
+		font-family: $lora;
+		font-size: $textSize-m;
+		font-weight: 400;
+		line-height: 1.6;
+		color: $text-color;
+	}
+
+	a {
+	// typography
+	color: $blue;
+	border-bottom: 1px solid #e6dfdf;
+		&:hover,&:focus {
+			text-decoration: none;
+			color: $blue;
+			border-bottom: 1px solid $blue;
+		}
+	}
+	blockquote {
+    padding: 15px 30px 15px 15px;
+    margin: $margin-s 0;
+    background-color: rgba($blue,.07);
+    border-left: 5px solid rgba($blue,.3);
+		font-size: $textSize;
+		font-family: $open-sans;
+		white-space: normal;
+		line-height: 1.5;
+	}
+
+}
+
+.post__container {
+		display: block;
+		background: $white;
+
+		margin: $margin-xs auto;
+		padding: $margin-s;
+
+		border-radius: 5px;
+		border-bottom: 2px solid #ddd;
+}
+.post-image {
+		height: 300px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+}
+.post-image-source {
+	color: #747474;
+	font-size: 1em;
+	margin-top: 5px;
+	margin-bottom: $margin-s;
+	text-align: center;
+	a {
+		border-bottom: 0;
+	}
+}
+
+
+a {
+	// typography
+	color: $text-color;
+
+	&:hover,&:focus {
+		text-decoration: none;
+		color: $text-color;
+	}
+}
+
+h1 a {
+	display: block;
+	text-align: left;
+	border-bottom: none !important;
+	@include textGradient(darken($blue-dark,5%),darken($blue-light,15%),darken($blue-dark,15%));
+	&:hover {
+		border-bottom: none;
+	}
+}
+
+h2 {
+	margin-top: 2em;
+	margin-bottom: .5em;
+
+	// typography
+	color: $black;
+	font-family: $open-sans;
+	font-weight: 600;
+}
+
+.read-more {
+	font-family: $lora;
+	font-size: $textSize;
+	font-weight: 600;
+}
+
+img {
+	display: block;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-top: $margin-s;
+	text-align: center;
+}
+.post__meta {
+	display: block;
+	text-align: left;
+	position: relative;
+	margin-bottom: $margin-s;
+
+	// typography
+	font-family: $open-sans;
+	font-size: 1em;
+	color: #888;
+}
+
+.quote {
+	position: relative;
+	padding: $margin-s 0;
+
+	// typography
+	@include textGradient($blue-dark,$blue-light,$blue-dark);
+	font-size: $textSize-l;
+	font-style: italic;
+	font-weight: 600;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 5%;
+		height: 35px;
+		width: 35px;
+		background: url("../img/quote-mark.svg");
+		opacity: .7;
+	}
+}
+
+// Breakpoints
+
+@media all and (max-width:760px) {
+	article.container.post {
+		margin-top: $mobile-nav-height + $margin-xs;
+		padding: $margin-s $margin-xs;
+		padding-top: 0;
+	}
+
+	.post {
+		margin-top: $margin-s;
+	}
+
+	p {
+		font-size: 18px;
+	}
+	.post__container {
+		border-radius: 0;
+		margin-top: -$margin-s + 6px;
+		margin-bottom: $margin-s + 16px;
+		padding: $margin-s $margin-xs;
+	}
+}

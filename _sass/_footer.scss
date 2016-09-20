@@ -1,0 +1,41 @@
+footer {
+	ul.social-icons {
+		list-style: none;
+		margin-bottom: $margin-xs;
+		li {
+			display: inline-block;
+			margin-left: $margin-s;
+			&:last-child{
+				margin-right: $margin-s;
+			}
+			a {
+			color: $blue-dark;
+			font-size: $textSize-xl;
+			&:hover {
+				.twitter {
+					transition: all .3s;
+					color: $twitter;
+				}
+				.instagram {
+					transition: all .3s;
+					color: $instagram;
+				}
+				.github {
+					transition: all .3s;
+					color: $github;
+				}
+				.linkedin {
+					transition: all .3s;
+					color: $linkedin;
+				}
+			}
+			}
+		}
+	}
+	.copy {
+		font-family: $open-sans;
+		font-weight: 600;
+		margin-bottom: $margin-s;
+		color: $blue-dark;
+	}
+}

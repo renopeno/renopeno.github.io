@@ -1,0 +1,120 @@
+// ******************************************************************
+// ******************************************************************
+//
+// 	  							C O L O R S
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// General colors
+
+$blue: #3aa8d1;
+$red: #F24D5B;
+$green: #1EEF71;
+$pink: #EB519A;
+$orange: #FFCFD2;
+$yellow: #FFFE9F;
+$grey-light: #d9d9d9;
+$black: #111;
+$white: #fff;
+
+
+// Color shades
+
+$blue-dark: #2a688f;
+$blue-light: #80daf2;
+$orange-light: lighten($orange,40%);
+$orange-dark: darken($orange,30%);
+
+
+// Socail media colors
+
+$twitter: #55acee;
+$instagram: #c13584;
+$snapchat: #fffc00;
+$linkedin: #0077b5;
+$github: #666;
+
+
+
+
+// ******************************************************************
+// ******************************************************************
+//
+// 	  							F O N T S
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// Text colors
+
+$text-color: rgba(0,0,0,.8);
+$link-color: lighten($orange,20%);
+
+// Text sizes
+
+$textSize-xxxxxl: 4em;
+$textSize-xxxxl: 3.5em;
+$textSize-xxxl: 3em;
+$textSize-xxl: 2.75em;
+$textSize-xl: 2em;
+$textSize-l: 1.5em;
+$textSize-m: 1.25em;
+$textSize: 1em;
+
+// Font Families
+
+$raleway: "Raleway",Helvetica, "Helvetica Neue", sans-serif;
+$varela: "Varela Round", sans-serif;
+$lora: 'Lora', serif;
+$open-sans: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$roboto: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+
+// ******************************************************************
+// ******************************************************************
+//
+// 	  						G R A D I E N T S
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// Background gradients
+
+$header-bg: linear-gradient(10deg,$blue-dark,lighten($blue-light,10%));
+$landing-bg: radial-gradient($blue-light,darken($blue-dark,5%));
+
+
+// Text gradients
+
+$highlighted-text-color: lighten($text-color, 10%);
+$textGradient-color: -webkit-linear-gradient(-295deg,$blue-dark,$blue-light);
+
+
+
+
+// ******************************************************************
+// ******************************************************************
+//
+// 	  						 WIDTHS AND HEIGHTS
+//
+// ******************************************************************
+// ******************************************************************
+
+
+// Heights
+
+$header-height: 65px;
+$mobile-nav-height: 55px;
+
+// Margins
+
+$margin-l: 75px;
+$margin-m: 50px;
+$margin-s: 35px;
+$margin-xs: 17.5px;

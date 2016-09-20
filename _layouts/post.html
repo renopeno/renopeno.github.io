@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+  <body class="bg-fff">
+
+  {% include header.html %}
+
+    <article class="container post bb0">
+
+      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+
+      <div>
+        <span class="post__meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+      </div>
+
+      {% if page.image %}
+      <div class="post-image" style="background-image:url( /img/{{ page.image }} )"></div>
+      {% endif %}
+
+      {% if page.image-source %}
+      <div class="post-image-source">
+        <span>Image by </span><a href="{{ page.image-source }}">{{ page.image-author }}</a>
+      </div>
+      {% endif %}
+
+      {{ content }}
+
+      <!-- Back arrow - SVG  -->
+      <a class="btn-back" href="{{ "/blog" | prepend: site.baseurl }}">
+        <img src="/img/back-arrow.svg" alt="go-back">
+      </a>
+
+      {% include disqus.html disqus_identifier=page.disqus_identifier %}
+
+    </article>
+
+  {% include footer.html %}
+
+        <!-- Scripts -->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+  <!-- app.js -->
+  <script src="{{ '/js/app.js' | prepend: site.baseurl }}"></script>
+
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-82392274-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,48 @@
+header {
+	position: fixed;
+	top:0;
+	width:100%;
+	background: $white;
+	height: $header-height;
+	overflow: visible;
+	box-shadow: 0 1px 1px rgba(0,0,0,.3);
+	z-index: 15;
+	transition: top 0.2s ease-in-out;
+	.avatar-vector {
+					position: absolute;
+					top: 7px;
+					left: 50%;
+					transform: translate(-50%, 0px);
+
+					height: 50px;
+					width: 50px;
+
+					background-image: url("../img/rm.svg");
+
+					z-index: 6;
+	}
+
+}
+
+// Breakpoints
+
+@media all and (max-width: 760px) {
+
+	header {
+		height: $mobile-nav-height;
+		.avatar-vector {
+			position: absolute;
+			top: 2.5px;
+			left: 50%;
+			transform: translate(-50%, 0px);
+
+			height: 50px;
+			width: 50px;
+
+			background-image: url("../img/rm.svg");
+
+			z-index: 6;
+		}
+	}
+
+} // - end 760px

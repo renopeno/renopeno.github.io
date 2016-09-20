@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Lora', serif;
+	background: #F8F8F8;
+	color: $text-color;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+}
+
+.bg-fff {
+	background-color: #fff;
+}
+
+h1 {
+	display: block;
+	border-bottom: none !important;
+	// typography
+	font-family: $open-sans;
+  font-size: $textSize-xxxl;
+}
+
+h2 {
+  font-family: $open-sans;
+	font-size: $textSize-l;
+}
+
+a {
+	padding-bottom: 0.085em;
+}
+.container {
+	padding-left: 0.70em;
+	padding-right: 0.70em;
+	max-width: 1024px;
+}
+
+code {
+  font-family: monospace;
+  color: #555;
+  background-color: rgba(0,0,0,0.04);
+  padding: 1px 3px;
+}
+
+@media all and (max-width:760px) {
+  h1 {
+  	font-size: $textSize-xl;
+  }
+  h2 {
+    font-size: $textSize-m;
+  }
+}

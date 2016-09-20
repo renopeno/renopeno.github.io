@@ -1,0 +1,77 @@
+.project {
+	background: none;
+  color: $white;
+  height: 200px;
+	padding: 10px;
+  text-align: center;
+
+
+  &-item {
+    position: relative;
+    background: #F8F8F8;
+    color: $blue-dark;
+    height: 100%;
+    width: 100%;
+		box-shadow: 3px 3px 10px #888;
+  }
+
+  &-title {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+		left: 0;
+    background: rgba($black,.6);
+    font-family: $open-sans;
+    font-size: $textSize-l;
+    font-weight: 600;
+    color: $white;
+    padding: 10px;
+		padding-left: 5%;
+		text-align: left;
+  }
+
+  &-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+  }
+}
+.project-wrapper {
+	max-width: 768px;
+	margin-top: $header-height + $margin-xs;
+	padding: $margin-s;
+
+	background: $white;
+	border-radius: 5px;
+	border-bottom: 2px solid #ddd;
+
+	p {
+		margin-bottom: $margin-s;
+
+		// typography
+		font-family: $lora;
+		font-size: $textSize-m;
+		font-weight: 400;
+		line-height: 1.6;
+		color: $text-color;
+	}
+	a {
+		color: $blue;
+		border-bottom: 1px solid #e6dfdf;
+			&:hover,&:focus {
+				text-decoration: none;
+				color: $blue;
+				border-bottom: 1px solid $blue;
+			}
+	}
+}
+.project-portfolio-item {
+	display: block;
+	height: 300px;
+	width: 100%;
+	overflow-y: hidden;
+	margin-top: $margin-s;
+	margin-bottom: $margin-l;
+}

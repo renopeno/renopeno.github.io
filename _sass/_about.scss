@@ -1,0 +1,20 @@
+.my-img-about {
+	height: 280px;
+	width: 280px;
+	background: url(../img/ja-ravno.jpg);
+	background-size: cover;
+	border-radius: 50%;
+	border: 8px solid $blue-dark;
+	box-shadow: none;
+	margin: $margin-s auto;
+}
+.title {
+	display: block;
+	text-align: center;
+	border-bottom: none !important;
+	margin-top: $margin-s;
+	@include textGradient(darken($blue-dark,5%),darken($blue-light,15%),darken($blue-dark,15%));
+	&:hover {
+		border-bottom: none;
+	}
+}

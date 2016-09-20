@@ -1,0 +1,47 @@
+@mixin textGradient($c1,$c2,$fallback-color) {
+	color: $fallback-color; //non-webkit browsers
+	background: -webkit-linear-gradient(-295deg,$c1,$c2); //webkit browsers
+	background: -o-linear-gradient(-75deg,$c1,$c2); //opera fix
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+@mixin heading($fontSize, $color) {
+	font-size: $fontSize;
+	color: $color;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+@mixin btn($bgColor,$fontSize,$fontColor) {
+	display: inline-block;
+	
+	background: $bgColor;
+	
+	padding: 10px 20px;
+	
+	border-radius: 4px;
+	border-bottom: 3px solid darken($bgColor,15%) !important;
+	
+	font-family: $open-sans;
+	font-size: $fontSize;
+	font-weight: 600;
+
+	color: $fontColor !important;
+	&:hover {
+		background: lighten($bgColor,5%);
+		border-bottom: 3px solid darken($bgColor,10%) !important;
+	}
+	&:focus {
+		background: darken($bgColor,5%);
+		border-bottom: 3px solid $bgColor !important;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+
+

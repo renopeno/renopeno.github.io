@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+  {% if page.image %}
+    <img src="/img/{{ page.image }}" alt="">
+    {% endif %}
+
+
+
+    <article class="container post">
+
+      {{ content }}
+
+
+      {% include disqus.html disqus_identifier=page.disqus_identifier %}
+
+
+    </article>
