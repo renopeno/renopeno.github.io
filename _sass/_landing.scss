@@ -12,8 +12,8 @@
 }
 .my-img {
 	position: relative;
-	height: 280px;
-	width: 280px;
+	height: 200px;
+	width: 200px;
 	background: url(../img/ja-ravno.jpg);
 	background-size: cover;
 	border-radius: 50%;
@@ -22,14 +22,13 @@
 	&::before {
 		content: '';
 		position:absolute;
-		top: -8px;
-		left: -8px;
+		top: -7px;
+		left: -7px;
 
-		background-image: linear-gradient(to bottom, $blue-light 0%, $blue-dark 100%);
+		background-image: linear-gradient($blue-light, $blue-dark);
 
-		width: 296px;
-	  height:296px;
-	  padding: 10px;
+		width: 214px;
+	  height:214px;
 		border-radius: 50%;
 
 	  z-index:-1;
@@ -48,7 +47,7 @@
 
 	nav {
 		ul {
-			//border-bottom: 10px dashed rgba($white,.3);
+			font-size: $textSize;
 			li {
 				margin-top: $margin-s;
 				margin-bottom: $margin-s/2;

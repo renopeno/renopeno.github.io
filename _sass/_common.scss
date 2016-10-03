@@ -27,14 +27,39 @@ body {
 h1 {
 	display: block;
 	border-bottom: none !important;
+
 	// typography
 	font-family: $open-sans;
   font-size: $textSize-xxxl;
+  font-weight: 600;
 }
-
 h2 {
+  margin-top: 2em;
+  margin-bottom: .5em;
+
+  // typography
   font-family: $open-sans;
+	font-size: $textSize-xxl;
+  font-weight: 600;
+}
+h3 {
+  margin-top: 2em;
+  margin-bottom: .5em;
+
+  // typography
+  font-family: $open-sans;
+	font-size: $textSize-xl;
+  font-weight: 600;
+}
+h4 {
+  margin-top: 2em;
+	margin-bottom: .5em;
+
+	// typography
+	color: $black;
+	font-family: $open-sans;
 	font-size: $textSize-l;
+  font-weight: 600;
 }
 
 a {
@@ -58,6 +83,6 @@ code {
   	font-size: $textSize-xl;
   }
   h2 {
-    font-size: $textSize-m;
+    font-size: $textSize-l;
   }
 }

@@ -90,23 +90,12 @@ a {
 }
 
 h1 a {
-	display: block;
 	text-align: left;
 	border-bottom: none !important;
 	@include textGradient(darken($blue-dark,5%),darken($blue-light,15%),darken($blue-dark,15%));
 	&:hover {
 		border-bottom: none;
 	}
-}
-
-h2 {
-	margin-top: 2em;
-	margin-bottom: .5em;
-
-	// typography
-	color: $black;
-	font-family: $open-sans;
-	font-weight: 600;
 }
 
 .read-more {
