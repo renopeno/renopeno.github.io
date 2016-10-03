@@ -90,6 +90,7 @@ a {
 }
 
 h1 a {
+	display: block; // mora biti radi duzih naslova koji nestaju na manjim uredajima
 	text-align: left;
 	border-bottom: none !important;
 	@include textGradient(darken($blue-dark,5%),darken($blue-light,15%),darken($blue-dark,15%));
