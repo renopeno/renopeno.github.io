@@ -36,6 +36,20 @@
     background-size: cover;
     background-position: top;
   }
+	&-portfolio-item {
+		display: block;
+		height: 300px;
+		width: 100%;
+		overflow-y: hidden;
+		margin-top: $margin-s;
+		margin-bottom: $margin-s;
+	}
+	&-portfolio-image-post {
+		display: block;
+		height: auto;
+		width: 100%;
+		overflow-y: hidden;
+	}
 }
 .project-wrapper {
 	max-width: 768px;
@@ -65,12 +79,4 @@
 				border-bottom: 1px solid $blue;
 			}
 	}
-}
-.project-portfolio-item {
-	display: block;
-	height: 300px;
-	width: 100%;
-	overflow-y: hidden;
-	margin-top: $margin-s;
-	margin-bottom: $margin-s;
 }

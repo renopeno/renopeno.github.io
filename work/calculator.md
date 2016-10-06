@@ -7,7 +7,7 @@ layout: project
 
 <h2 class="title">My first JavaScript little project</h2>
 
-<div class="project-portfolio-item">
+<div class="project-portfolio-image-post">
   <a href="/img/portfolio/calc-header.png">
     <img src="/img/portfolio/calc-header.png" alt="" />
   </a>

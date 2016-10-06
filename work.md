@@ -20,19 +20,7 @@ Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong>
 </div>
 <br>
 
-<div class="col-md-12 col-sm-6 project">
-  <a href="calculator">
-    <div class="project-item">
-      <div class="project-title">
-        Calculator - my first JavaScript project
-      </div>
-      <div class="project-img" style="background-image: url('/img/portfolio/calc-header.png'); background-position: top;">
-      </div>
-    </div>
-  </a>
-</div>
-
-<div class="col-md-8 col-sm-6 project">
+<div class="col-sm-12 project">
   <a href="weather">
     <div class="project-item">
       <div class="project-title">
@@ -44,13 +32,13 @@ Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong>
   </a>
 </div>
 
-<div class="col-md-4 col-sm-6 project">
+<div class="col-sm-12 project">
   <a href="calculator">
     <div class="project-item">
       <div class="project-title">
-        Calculator
+        Calculator - my first JavaScript project
       </div>
-      <div class="project-img">
+      <div class="project-img" style="background-image: url('/img/portfolio/calc-header.png'); background-position: top;">
       </div>
     </div>
   </a>

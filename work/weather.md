@@ -7,11 +7,17 @@ layout: project
 
 <h2 class="title">Small ReactJS training project</h2>
 
-<div class="project-portfolio-item">
+<div class="project-portfolio-image-post">
   <a href="/img/portfolio/weather.png">
     <img src="/img/portfolio/weather.png" alt="weather" />
   </a>
 </div>
+<div class="project-portfolio-image-post">
+  <a href="/img/portfolio/weather-with-temp.png">
+    <img src="/img/portfolio/weather-with-temp.png" alt="weather with temperature" />
+  </a>
+</div>
+<br>
 
 I decided to work on a weather app to practice usage of public APIs and React at the same time. It's all new to me, but [create react app](https://github.com/facebookincubator/create-react-app)  helps to get started much more easily with that framework.
 
