@@ -33,12 +33,12 @@ Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong>
 </div>
 
 <div class="col-md-8 col-sm-6 project">
-  <a href="informguest-logo">
+  <a href="weather">
     <div class="project-item">
       <div class="project-title">
-        InformGuest logo
+        Weather App - React
       </div>
-      <div class="project-img">
+      <div class="project-img" style="background-image: url('/img/portfolio/weather.png'); background-position: top;">
       </div>
     </div>
   </a>
