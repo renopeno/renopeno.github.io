@@ -21,7 +21,7 @@ article.container.post {
 		margin-bottom: $margin-s;
 
 		// typography
-		font-family: $lora;
+		font-family: $serif;
 		font-size: $textSize-m;
 		font-weight: 400;
 		line-height: 1.6;
@@ -44,7 +44,7 @@ article.container.post {
     background-color: rgba($blue,.07);
     border-left: 5px solid rgba($blue,.3);
 		font-size: $textSize;
-		font-family: $open-sans;
+		font-family: $sans;
 		white-space: normal;
 		line-height: 1.5;
 	}
@@ -100,7 +100,7 @@ h1 a {
 }
 
 .read-more {
-	font-family: $lora;
+	font-family: $serif;
 	font-size: $textSize;
 	font-weight: 600;
 }
@@ -119,7 +119,7 @@ img {
 	margin-bottom: $margin-s;
 
 	// typography
-	font-family: $open-sans;
+	font-family: $sans;
 	font-size: 1em;
 	color: #888;
 }
