@@ -12,6 +12,7 @@ layout: project
     <img src="/img/portfolio/calc-header.png" alt="" />
   </a>
 </div>
+<br>
 
 This was first project I decided to code from scratch in JavaScript. I know it isn't perfect, and isn't even finished as a project, but it helped me practice manipulating DOM with JavaScript.
 

@@ -8,13 +8,13 @@ A few weeks ago I bought myself a book about React basics called [Learn Pure Rea
 
 So we will be writting our first **Hello, World!** component today.
 
-#### What is React?
+## What is React?
 
 "React is an open-source JavaScript library providing a view for data rendered as HTML. React views are typically rendered using components that contain additional components specified as custom HTML tags."
 <br>
 - Wikipedia
 
-#### What is React Component?
+## What is React Component?
 
 It's basically a code block full of different code blocks(components) that is being rendered into DOM.
 
@@ -26,7 +26,7 @@ We will create our **Hello, World!** component soon, so everything will get much
   Components can render to only one node in DOM tree.
 </blockquote>
 
-#### Let's create our first component
+## Let's create our first component
 
 We will be using **create-react-app** created by Facebook to make our build process faster and much easier. Check out this [link for instructions ](https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html) on how to install **create-react-app**.
 
