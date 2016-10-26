@@ -12,9 +12,9 @@
 }
 .my-img {
 	position: relative;
-	height: 200px;
-	width: 200px;
-	background: url(../img/ja-ravno.jpg);
+	height: 280px;
+	width: 280px;
+	background: url(../img/rm-v2.svg);
 	background-size: cover;
 	border-radius: 50%;
 	margin: 0 auto;
@@ -22,13 +22,13 @@
 	&::before {
 		content: '';
 		position:absolute;
-		top: -7px;
-		left: -7px;
+		top: -10px;
+		left: -10px;
 
 		background-image: linear-gradient($blue-light, $blue-dark);
 
-		width: 214px;
-	  height:214px;
+		width: 300px;
+	  height: 300px;
 		border-radius: 50%;
 
 	  z-index:-1;
@@ -122,6 +122,17 @@
 // Breakpoints
 
 @media all and (max-width:760px) {
+	.my-img {
+		height: 200px;
+		width: 200px;
+		&::before {
+			content: '';
+			top: -7px;
+			left: -7px;
+			width: 214px;
+		  height:214px;
+		}
+	}
 	#l-body {
 		padding: 25px;
 	}
