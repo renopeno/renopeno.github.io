@@ -5,7 +5,7 @@ layout: project
 
 <h1 class="title">Weather</h1>
 
-<h2 class="title">Small ReactJS training project</h2>
+<h2 class="title">React project</h2>
 
 <div class="project-portfolio-image-post">
   <a href="/img/portfolio/weather.png">
@@ -28,4 +28,4 @@ This app works by writing a city and country in text field and it get's you fore
 I enjoyed working on it and can't wait to get started on next React component.
 
 
-Link to my code hosted on [github](https://github.com/renopeno/react-weather-app):
+Link to my code hosted on [github](https://github.com/renopeno/react-weather-app)
