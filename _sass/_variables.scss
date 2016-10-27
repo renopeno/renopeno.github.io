@@ -85,7 +85,7 @@ $serif: 'Noto Serif', serif;
 // Background gradients
 
 $header-bg: linear-gradient(10deg,$blue-dark,lighten($blue-light,10%));
-$landing-bg: radial-gradient($blue-light,darken($blue-dark,5%));
+$landing-bg: linear-gradient(45deg,$blue-light,darken($blue-dark,5%));
 
 
 // Text gradients

@@ -1,6 +1,9 @@
+html {
+	height: 100%;
+}
 .l-body {
 	background: $landing-bg;
-	min-height: 100vh;
+	height: 100%;
 
 	display: -webkit-flex;
 	display: flex;
@@ -16,31 +19,19 @@
 	width: 280px;
 	background: url(../img/rm-v2.svg);
 	background-size: cover;
+	border: 10px solid $white;
 	border-radius: 50%;
 	margin: 0 auto;
 	box-shadow: 0 0 80px $blue-dark;
-	&::before {
-		content: '';
-		position:absolute;
-		top: -10px;
-		left: -10px;
-
-		background-image: linear-gradient($blue-light, $blue-dark);
-
-		width: 300px;
-	  height: 300px;
-		border-radius: 50%;
-
-	  z-index:-1;
-	}
 }
 .l-title {
 	font-family: $varela;
 	font-weight: 600;
 	color: $white;
-	text-shadow: 4px 4px 10px $blue-dark;
+	text-shadow: 0 0 30px $blue-dark;
 	margin-top: $margin-s;
 	margin-bottom: $margin-s;
+	margin-right: 200px;
 }
 .landing {
 		text-align: center;
@@ -63,9 +54,9 @@
 					font-size: $textSize-xxl;
 					font-weight: 600;
 					color: $white;
-					text-shadow: 4px 4px 10px $blue-dark;
+					text-shadow: 0 0 30px $blue-dark;
 					&:hover {
-						text-shadow: 8px 8px 15px $blue-dark;
+						text-shadow: 4px 4px 30px $blue-dark;
 						color: $white;
 						text-decoration: none;
 					}
@@ -82,7 +73,7 @@
 				font-size: $textSize-xl;
 				a {
 					transition: all .3s;
-					text-shadow: 5px 5px 30px $blue-dark;
+					text-shadow: 0 0 30px $blue-dark;
 					color: #fff;
 					padding: 0 25px;
 					font-size: $textSize-xl;
@@ -137,6 +128,10 @@
 		padding: 25px;
 	}
 
+	.l-title {
+		margin-right: 157px;
+	}
+
 	.landing {
 
 		nav ul li a {
@@ -158,6 +153,10 @@
 
 @media all and (max-width:550px) {
 
+	.l-title {
+		margin-right: 130px;
+	}
+
 	.landing {
 
 		nav ul li a {
@@ -175,4 +174,13 @@
 			}
 		}
 	}
+}
+
+@media all and (max-width:400px) {
+
+	.l-title {
+		font-size: $textSize-l;
+		margin-right: 130px;
+	}
+
 }
