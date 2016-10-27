@@ -154,13 +154,15 @@ html {
 @media all and (max-width:550px) {
 
 	.l-title {
+		font-size: $textSize-l;
 		margin-right: 130px;
 	}
 
 	.landing {
 
 		nav ul li a {
-					padding: 0 5px;
+			font-size: $textSize-l;
+			padding: 0 5px;
 		}
 
 
@@ -174,13 +176,4 @@ html {
 			}
 		}
 	}
-}
-
-@media all and (max-width:400px) {
-
-	.l-title {
-		font-size: $textSize-l;
-		margin-right: 130px;
-	}
-
 }
