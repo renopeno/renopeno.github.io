@@ -44,7 +44,7 @@ html {
 				margin-bottom: $margin-s/2;
 				transition: all .3s;
 				&:hover {
-					transform: scale(1.2);
+					transform: scale(1.15);
 				}
 				a {
 					transition: all .1s;
@@ -57,7 +57,7 @@ html {
 					text-shadow: 0 0 30px $blue-dark;
 					&:hover {
 						text-shadow: 4px 4px 30px $blue-dark;
-						color: $white;
+						color: $blue-light;
 						text-decoration: none;
 					}
 				}

@@ -17,22 +17,21 @@ header {
 		font-weight: 800;
 		color: $blue-dark;
 		padding-bottom: 5px;
-		border-bottom: 1px solid transparent;
 		transition: all .3s;
 		&:hover {
-			color: $blue-dark;
+			color: $blue-light;
 			text-decoration: none;
-			border-bottom: 1px solid #fff;
 		}
 
 	}
 	.nav__item--active a {
-		border-bottom: 3px solid $blue-dark;
-		color: $blue;
 		position: relative;
+		border-bottom: 7px solid $blue-light;
+		color: $blue-light;
 		&:hover {
+
 			color: $blue-dark;
-			border-bottom: 3px solid $blue-dark;
+			//border-bottom: 7px solid $blue-light;
 		}
 
 
