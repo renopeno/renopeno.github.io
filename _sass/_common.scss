@@ -24,6 +24,17 @@ body {
 	background-color: #fff;
 }
 
+.title {
+	display: block;
+	text-align: center;
+	border-bottom: none !important;
+	margin-top: $margin-s;
+	@include textGradient($blue-dark, $blue-light, $blue-light);
+	&:hover {
+		border-bottom: none;
+	}
+}
+
 h1 {
 	display: block;
 	border-bottom: none !important;

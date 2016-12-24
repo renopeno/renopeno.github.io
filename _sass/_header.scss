@@ -1,51 +1,43 @@
-header {
-	position: fixed;
-	top:0;
-	width:100%;
-	background: $white;
-	height: $header-height;
-	overflow: visible;
-	box-shadow: 0 1px 1px rgba(0,0,0,.3);
-	z-index: 15;
-	transition: top 0.2s ease-in-out;
-	.avatar-vector {
-					position: absolute;
-					top: 6px;
-					left: 50%;
-					transform: translate(-50%, 0);
-
-					height: 52px;
-					width: 52px;
-
-					background-image: url("../img/rm-v2.svg");
-					background-size: cover;
-					background-position: center;
-
-					border-radius: 50%;
-					z-index: 6;
-	}
-
-}
-
-// Breakpoints
-
-@media all and (max-width: 760px) {
-
 	header {
-		height: $mobile-nav-height;
+		position: fixed;
+	 	top:0;
+	 	width:100%;
+	 	background: $white;
+	 	height: $mobile-nav-height;
+	 	overflow: visible;
+	 	box-shadow: 0 1px 15px rgba(0,0,0,.2);
+	 	z-index: 15;
+	 	transition: top 0.2s ease-in-out;
+
 		.avatar-vector {
 			position: absolute;
 			top: 4px;
 			left: 50%;
-			transform: translate(-50%, 0);
+			transform: translateX(-50%);
 
 			height: 48px;
 			width: 48px;
 
-			background-image: url("../img/rm-v2.svg");
+			background-image: url("../img/RM-Red.svg");
+			background-size: cover;
+			background-position: center;
 
+			border-radius: 100%;
 			z-index: 6;
 		}
 	}
 
-} // - end 760px
+ // - end 760px
+
+
+ @media all and (min-width: 760px) {
+ header {
+ 	height: $header-height;
+ 	.avatar-vector {
+ 					top: 6px;
+ 					height: 52px;
+ 					width: 52px;
+ 	}
+
+ }
+ }

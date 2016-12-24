@@ -9,11 +9,11 @@
 
 // General colors
 
-$blue: #3aa8d1;
-$red: #F24D5B;
+$blue: #202C59;
+$red: #EC5766;
 $green: #1EEF71;
-$pink: #EB519A;
-$orange: #FFCFD2;
+$pink: #e7b3dd;
+$orange: #F79256;
 $yellow: #FFFE9F;
 $grey-light: #d9d9d9;
 $black: #111;
@@ -22,8 +22,8 @@ $white: #fff;
 
 // Color shades
 
-$blue-dark: #2a688f;
-$blue-light: #80daf2;
+$blue-dark: #202C59;
+$blue-light: #01BAEF;
 $orange-light: lighten($orange,40%);
 $orange-dark: darken($orange,30%);
 
@@ -85,7 +85,7 @@ $serif: 'Noto Serif', serif;
 // Background gradients
 
 $header-bg: linear-gradient(10deg,$blue-dark,lighten($blue-light,10%));
-$landing-bg: linear-gradient(45deg,$blue-light,darken($blue-dark,5%));
+$landing-bg: linear-gradient(-75deg, $blue-light,$blue-dark);
 
 
 // Text gradients

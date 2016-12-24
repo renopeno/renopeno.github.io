@@ -19,19 +19,18 @@ header {
 		padding-bottom: 5px;
 		transition: all .3s;
 		&:hover {
-			color: $blue-light;
+			color: $red;
 			text-decoration: none;
 		}
 
 	}
 	.nav__item--active a {
 		position: relative;
-		border-bottom: 7px solid $blue-light;
-		color: $blue-light;
+		border-bottom: 2px solid $red;
+		color: $red;
 		&:hover {
-
 			color: $blue-dark;
-			//border-bottom: 7px solid $blue-light;
+			border-bottom: 2px solid $blue-dark;
 		}
 
 

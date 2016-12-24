@@ -23,7 +23,8 @@
     position:absolute;
     left: 15px;
     -webkit-animation:fade-in 3s infinite;
-    color: $orange;
+    color: $blue-light;
+    text-shadow: none;
 }
 .text-animated-two {
     opacity:0;
@@ -33,7 +34,8 @@
     left: 15px;
     -webkit-animation: fade-in 3s infinite;
     -webkit-animation-delay: 1.5s;
-    color: $blue-light;
+    color: $white;
+    text-shadow: none;
 }
 
 .aggettivi {

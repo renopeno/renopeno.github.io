@@ -27,11 +27,6 @@
 
       {{ content }}
 
-      <!-- Back arrow - SVG  -->
-      <a class="btn-back" href="{{ "/blog" | prepend: site.baseurl }}">
-        <img src="/img/back-arrow.svg" alt="go-back">
-      </a>
-
       {% include disqus.html disqus_identifier=page.disqus_identifier %}
 
     </article>
@@ -40,8 +35,6 @@
 
         <!-- Scripts -->
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
   <!-- app.js -->
   <script src="{{ '/js/app.js' | prepend: site.baseurl }}"></script>
 
