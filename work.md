@@ -4,16 +4,18 @@ title: Work
 permalink: /work/
 ---
 <div class="text-center">
-<h1 class="title">Let's work together</h1>
+  <h1 class="title">Contact me</h1>
 </div>
 <br>
 <p class="text-center">
-Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong>
+  Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong>
+  <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i> send me an email </a>
 </p>
-<p class="text-center">
-<a href="mailto:{{ site.email }}">Send me an email!</a>
-</p>
+
 <br>
+
+
+
 
 <div class="text-center">
 <h1 class="title">My projects</h1>

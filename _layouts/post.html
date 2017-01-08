@@ -7,29 +7,34 @@
 
   {% include header.html %}
 
-    <article class="container post bb0">
+  <!-- Colored border -->
+  <div class="left-bar"></div>
+  <div class="right-bar"></div>
+  <div class="bottom-bar"></div>
 
-      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+  <article class="container post bb0">
 
-      <div>
-        <span class="post__meta">{{ page.date | date: "%b %-d, %Y" }}</span>
-      </div>
+    <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
 
-      {% if page.image %}
-      <div class="post-image" style="background-image:url( /img/{{ page.image }} )"></div>
-      {% endif %}
+    <div>
+      <span class="post__meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+    </div>
 
-      {% if page.image-source %}
-      <div class="post-image-source">
-        <span>Image by </span><a href="{{ page.image-source }}">{{ page.image-author }}</a>
-      </div>
-      {% endif %}
+    {% if page.image %}
+    <div class="post-image" style="background-image:url( /img/{{ page.image }} )"></div>
+    {% endif %}
 
-      {{ content }}
+    {% if page.image-source %}
+    <div class="post-image-source">
+      <span>Image by </span><a href="{{ page.image-source }}">{{ page.image-author }}</a>
+    </div>
+    {% endif %}
 
-      {% include disqus.html disqus_identifier=page.disqus_identifier %}
+    {{ content }}
 
-    </article>
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+
+  </article>
 
   {% include footer.html %}
 

@@ -1,18 +1,29 @@
 ---
+layout: page
 title: About
 permalink: /about/
 ---
 <div class="my-img-about"></div>
 
-My name is **Renato**, I'm __Front End Developer/Designer__ based in **Rijeka, Croatia**.
+Hello, I'm **Renato**, 25 years old guy living in Croatia.
 
-I have been in the "web dev" field for nearly a year, and have been loving every second of it. I am a designer, developer, problem solver and everyday learner.
+#### 🖥  Front end development
 
-Since December 2015, I've been designing and developing **@ InformGuest** startup as a **Front-End Developer** and **Lead Designer**.
+I've been part of Web development world for about a year now and I'm loving every day I spend my time learning about it. I enjoy reading web blogs, spending time watching videos on YouTube and reading JavaScript books.
 
-I enjoy reading about web technologies, spending time watching videos on YouTube and reading tech books.
+#### ⌨️ Freelancer
 
-I'm gamer.
+I'm a freelance graphic designer working for a few clients on a daily basis. Even though I enjoy working with them, my main goal is to get hired as a Front end developer in a digital agency in a near future.
+
+#### 💡 Goals for 2017
+
+My wishes for this year are simple. I want to get hired as (front end) developer so I can start hanging out with others I share interests with. I want to learn more, learn from others, become better developer and work on great and interesting projects.
+
+#### 🕹 Gaming
+
+Gaming is one of the biggest parts of my life. I enjoy playing online games competing with other people. Games I enjoy the most are Counter Strike, Overwatch and Fifa.
+
+#### 👍 Folow me and say Hello
 
 Check out [blog postings](http://www.renatomandic.com/blog) or follow me on [twitter](http://www.twitter.com/{{ site.twitter_username }}) to see what I've been up to lately.
 

@@ -22,7 +22,11 @@ body {
 .bg-fff {
 	background-color: #fff;
 }
-
+.left-bar,
+.right-bar,
+.bottom-bar {
+  z-index: 14;
+}
 .left-bar {
   position: fixed;
   top:0;

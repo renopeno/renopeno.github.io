@@ -1,19 +1,30 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-  {% if page.image %}
-    <img src="/img/{{ page.image }}" alt="">
-    {% endif %}
+    {% include head.html %}
 
+  <body class="bg-fff">
 
+  {% include header.html %}
 
-    <article class="container post">
+  <!-- Colored border -->
+  <div class="left-bar"></div>
+  <div class="right-bar"></div>
+  <div class="bottom-bar"></div>
 
-      {{ content }}
+  <article class="container page-wrapper">
 
+    {{ content }}
 
-      {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  </article>
 
+  {% include footer.html %}
 
-    </article>
+        <!-- Scripts -->
+
+  <!-- app.js -->
+  <script src="{{ '/js/app.js' | prepend: site.baseurl }}"></script>
+
+  </body>
+
+</html>

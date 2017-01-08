@@ -1,10 +1,8 @@
 .project {
 	background: none;
-  color: $white;
   height: 200px;
 	padding: 10px;
   text-align: center;
-
 
   &-item {
     position: relative;
@@ -49,35 +47,5 @@
 		height: auto;
 		width: 100%;
 		overflow-y: hidden;
-	}
-}
-.project-wrapper {
-	max-width: 768px;
-	margin-top: $header-height + $margin-xs;
-	margin-bottom: $margin-s;
-	padding: $margin-s;
-
-	background: $white;
-	border-radius: 5px;
-	border-bottom: 2px solid #ddd;
-
-	p {
-		margin-bottom: $margin-s;
-
-		// typography
-		font-family: $serif;
-		font-size: $textSize-m;
-		font-weight: 400;
-		line-height: 1.6;
-		color: $text-color;
-	}
-	a {
-		color: $blue;
-		border-bottom: 1px solid #e6dfdf;
-			&:hover,&:focus {
-				text-decoration: none;
-				color: $blue;
-				border-bottom: 1px solid $blue;
-			}
 	}
 }

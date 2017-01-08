@@ -48,7 +48,15 @@ article.container.post {
 		white-space: normal;
 		line-height: 1.5;
 	}
-
+	.read-more {
+		font-family: $serif;
+		font-size: $textSize;
+		font-weight: 600;
+		color: $blue;
+		&:hover {
+			color: $blue-light;
+		}
+	}
 }
 
 .post__container {
@@ -99,11 +107,7 @@ h1 a {
 	}
 }
 
-.read-more {
-	font-family: $serif;
-	font-size: $textSize;
-	font-weight: 600;
-}
+
 
 img {
 	display: block;
