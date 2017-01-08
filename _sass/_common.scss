@@ -19,17 +19,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
 }
-
 .bg-fff {
 	background-color: #fff;
 }
 
+.left-bar {
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100vh;
+  width: 7px;
+  background-color: $red;
+}
+.right-bar {
+  position: fixed;
+  top:0;
+  right:0;
+  height: 100vh;
+  width: 7px;
+  background-color: $blue;
+}
+.bottom-bar {
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height: 7px;
+  width: 100vw;
+  background: linear-gradient(90deg,$red,$blue);
+}
 .title {
 	display: block;
 	text-align: center;
 	border-bottom: none !important;
 	margin-top: $margin-s;
-	@include textGradient($blue-dark, $blue-light, $blue-light);
+	@include textGradient($blue-dark, $blue-light, $blue-dark);
 	&:hover {
 		border-bottom: none;
 	}
@@ -90,6 +114,12 @@ code {
 }
 
 @media all and (max-width:760px) {
+  .left-bar,
+  .right-bar,
+  .bottom-bar {
+    display: none;
+  }
+
   h1 {
   	font-size: $textSize-xl;
   }
