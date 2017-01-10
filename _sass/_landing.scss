@@ -4,7 +4,7 @@ html {
 .l-body {
 	background: $blue-dark;
 	background: $landing-bg;
-	height: 100%;
+	min-height: 100vh;
 
 	display: -webkit-flex;
 	display: flex;
@@ -26,12 +26,13 @@ html {
 	box-shadow: 0 0 1em $blue-dark;
 }
 .l-title {
-	font-family: $varela;
+	font-family: $mono;
 	font-weight: 600;
 	color: #fff;
 	margin-top: $margin-s;
 	margin-bottom: $margin-s;
-	margin-right: 200px;
+	padding-left: .75em;
+	padding-right: .75em;
 }
 .landing {
 		text-align: center;
@@ -44,18 +45,18 @@ html {
 				margin-bottom: $margin-s/2;
 				transition: all .3s;
 				&:hover {
-					transform: scale(1.15);
+					transform: rotate(25deg);
 				}
 				a {
 					transition: all .1s;
 					padding: 0 25px;
 					border: 1px solid transparent;
-					font-family: $varela;
+					font-family: $mono;
 					font-size: $textSize-xxl;
 					font-weight: 600;
 					color: $white;
 					&:hover {
-						color: $blue-light;
+						color: $red;
 						text-decoration: none;
 					}
 				}
@@ -65,36 +66,35 @@ html {
 	}
 	.l-social-wrap {
 		ul {
+			font-size: $textSize;
 			margin-top: $margin-s/2;
 			margin-bottom: $margin-s;
 			li {
-				font-size: $textSize-xl;
 				a {
-					transition: all .3s;
+					// transition: all .3s;
 					color: #fff;
 					padding: 0 25px;
-					font-size: $textSize-xl;
+					font-size: $textSize-xxxxxl;
 				}
 				&:hover {
 					a {
-						.twitter {
+						.twitter,
+						.instagram,
+						.github,
+						.linkedin {
 							transition: all .2s;
-							transform: scale(1.2);
+							transform: rotate(-25deg);
+						}
+						.twitter {
 							color: $twitter;
 						}
 						.instagram {
-							transition: all .2s;
-							transform: scale(1.2);
 							color: $instagram;
 						}
 						.github {
-							transition: all .2s;
-							transform: scale(1.2);
 							color: $github;
 						}
 						.linkedin {
-							transition: all .2s;
-							transform: scale(1.2);
 							color: $linkedin;
 						}
 
@@ -124,23 +124,20 @@ html {
 	#l-body {
 		padding: 25px;
 	}
-
 	.l-title {
-		margin-right: 157px;
+		padding: 10px;
+		font-size: $textSize-xl;
 	}
-
 	.landing {
-
 		nav ul li a {
-					padding: 15px;
-					font-size: $textSize-xl;
+								padding: 0 5px;
+								font-size: $textSize-xl;
 		}
-
 
 		.l-social-wrap {
 			ul {
 				li a {
-					padding: 20px;
+					padding: 0 5px;
 					font-size: $textSize-xl;
 				}
 			}
@@ -148,26 +145,18 @@ html {
 	}
 }
 
-@media all and (max-width:550px) {
-
+@media all and (max-width:450px) {
 	.l-title {
 		font-size: $textSize-l;
-		margin-right: 130px;
 	}
-
 	.landing {
-
 		nav ul li a {
-			font-size: $textSize-l;
-			padding: 0 5px;
+								font-size: $textSize-l;
 		}
-
-
 
 		.l-social-wrap {
 			ul {
 				li a {
-					padding: 0 10px;
 					font-size: $textSize-l;
 				}
 			}
