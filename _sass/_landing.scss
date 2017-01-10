@@ -20,15 +20,15 @@ html {
 	width: 280px;
 	background: url(../img/RM-Red.svg);
 	background-size: cover;
-	border: 8px solid $white;
+	border: 8px solid #fff;
 	border-radius: 50%;
 	margin: 0 auto;
-	box-shadow: 0 0 80px $blue-dark;
+	box-shadow: 0 0 1em $blue-dark;
 }
 .l-title {
 	font-family: $varela;
 	font-weight: 600;
-	color: $white;
+	color: #fff;
 	margin-top: $margin-s;
 	margin-bottom: $margin-s;
 	margin-right: 200px;
@@ -54,7 +54,6 @@ html {
 					font-size: $textSize-xxl;
 					font-weight: 600;
 					color: $white;
-					text-shadow: 0 0 10px $blue-dark;
 					&:hover {
 						color: $blue-light;
 						text-decoration: none;
@@ -72,7 +71,6 @@ html {
 				font-size: $textSize-xl;
 				a {
 					transition: all .3s;
-					text-shadow: 0 0 10px $blue-dark;
 					color: #fff;
 					padding: 0 25px;
 					font-size: $textSize-xl;

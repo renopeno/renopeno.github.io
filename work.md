@@ -8,8 +8,8 @@ permalink: /work/
 </div>
 <br>
 <p class="text-center">
-  Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong>
-  <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i> send me an email </a>
+  Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong> <br>
+  <a href="mailto:{{ site.email }}">✉️ write me an e-mail </a>
 </p>
 
 <br>
