@@ -5,6 +5,7 @@ html {
 	background: $blue-dark;
 	background: $landing-bg;
 	height: 100vh;
+	overflow: hidden;
 
 	display: -webkit-flex;
 	display: flex;
