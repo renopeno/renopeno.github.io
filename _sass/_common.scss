@@ -68,7 +68,7 @@ h1 {
 	border-bottom: none !important;
 
 	// typography
-	font-family: 'Noto Sans';
+	font-family: $sans;
   font-size: $textSize-xxxl;
   font-weight: 600;
 }
@@ -77,7 +77,7 @@ h2 {
   margin-bottom: .5em;
 
   // typography
-  font-family: 'Noto Sans';
+  font-family: $sans;
 	font-size: $textSize-xxl;
   font-weight: 600;
 }
