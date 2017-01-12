@@ -4,8 +4,9 @@ html {
 .l-body {
 	background: $blue-dark;
 	background: $landing-bg;
-	height: 100vh;
-	overflow: hidden;
+	background-attachment: fixed;
+	// min-height: 100%;
+	// overflow: hidden;
 
 	display: -webkit-flex;
 	display: flex;
