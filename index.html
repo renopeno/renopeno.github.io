@@ -1,8 +1,7 @@
 ---
 layout: landing
 ---
-  <h1 class="l-title">Front end designer
-  </h1>
+  <h1 class="l-title">Front end designer</h1>
 
 
 <div class="my-img"></div>
@@ -10,26 +9,40 @@ layout: landing
 <nav role="navigation">
   <ul>
     {% for page in site.pages %}
-    <!-- Compare the page title to the URL -->
-
       {% assign current = page.title | downcase %}
-
       {% if page.title %}
       <li class="nav__item">
         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       </li>
       {% endif %}
-
     {% endfor %}
   </ul>
 </nav>
 
 <div class="l-social-wrap">
     <ul class="social-icons text-center">
-      <li><a href="https://twitter.com/iamrenopeno"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.instagram.com/renopeno/"><i class="fa fa-instagram instagram" aria-hidden="true"></i></a></li>
-      <li><a href="https://github.com/renopeno"><i class="fa fa-github github" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/renopeno"><i class="fa fa-linkedin linkedin" aria-hidden="true"></i></a></li>
+      <li>
+        <a href="https://twitter.com/iamrenopeno" title="Twitter">
+          <i class="fa fa-twitter twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/renopeno/" title="Instagram">
+          <i class="fa fa-instagram instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://github.com/renopeno" title="GitHub"><i class="fa fa-github github" aria-hidden="true"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/renopeno" title="LinkedIn">
+          <i class="fa fa-linkedin linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
     </ul>
 </div>
 
