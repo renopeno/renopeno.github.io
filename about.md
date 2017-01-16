@@ -25,6 +25,6 @@ Gaming is one of the biggest parts of my life. I enjoy playing online games comp
 
 #### 👍 Folow me and say Hello
 
-Check out [blog postings](http://www.renatomandic.com/blog) or follow me on [twitter](http://www.twitter.com/{{ site.twitter_username }}) to see what I've been up to lately.
+Check out [blog postings]( {{ "/blog" | prepend: site.baseurl }} ) or follow me on [twitter](http://www.twitter.com/{{ site.twitter_username }}) to see what I've been up to lately.
 
 If you want to say hello or have a job request <a href="mailto:{{ site.email }}">send me an email!</a>

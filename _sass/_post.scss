@@ -110,11 +110,12 @@ h1 a {
 
 
 img {
-	display: block;
+	display: inline-block;
 	max-width: 80%;
 	margin: 0 auto;
 	margin-top: $margin-s;
 	text-align: center;
+	box-shadow: .2em .2em 1em rgba(0,0,0,.3);
 }
 .post__meta {
 	display: block;
