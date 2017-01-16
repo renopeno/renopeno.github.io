@@ -5,6 +5,7 @@ description: I'm Renato. I am Front End Developer and Designer based in Croatia.
 url: "https://renatomandic.com" # the base hostname & protocol for your site
 enforce_ssl: www.renatomandic.com   # without any protocol
 twitter_username: iamrenopeno
+future: true # show posts with any date when published
 
 
 # Build settings
