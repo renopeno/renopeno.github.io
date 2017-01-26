@@ -27,8 +27,8 @@ html {
 	margin: 0 auto;
 }
 .l-title {
-	font-family: $mono;
-	font-weight: 600;
+	font-family: $sans;
+	font-weight: 400;
 	color: #fff;
 	margin-top: $margin-s;
 	margin-bottom: $margin-s;
@@ -52,9 +52,9 @@ html {
 					transition: all .1s;
 					padding: 0 25px;
 					border: 1px solid transparent;
-					font-family: $mono;
+					font-family: $sans;
 					font-size: $textSize-xxl;
-					font-weight: 600;
+					font-weight: 400;
 					color: $white;
 					&:hover {
 						color: $red;
