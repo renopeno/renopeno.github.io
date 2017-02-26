@@ -9,8 +9,9 @@
 
 // General colors
 
-$blue: #202C59;
-$red: #ec5796;
+// $primary: #202C59;
+$primary: #003F84;
+$secondary: #EC5796;
 $green: #1EEF71;
 $pink: #e7b3dd;
 $orange: #F79256;
@@ -22,8 +23,7 @@ $white: #fff;
 
 // Color shades
 
-$blue-dark: #202C59;
-$blue-light: #01BAEF;
+$primary-light: #20d0ff;
 $orange-light: lighten($orange,40%);
 $orange-dark: darken($orange,30%);
 
@@ -55,9 +55,7 @@ $link-color: lighten($orange,20%);
 
 // Text sizes
 
-$textSize-xxxxxl: 4em;
-$textSize-xxxxl: 3.5em;
-$textSize-xxxl: 3em;
+$h1: 3em;
 $textSize-xxl: 2.75em;
 $textSize-xl: 2em;
 $textSize-l: 1.5em;
@@ -81,14 +79,15 @@ $sans:  Helvetica, 'Open Sans', Arial, sans-serif;
 
 // Background gradients
 
-$header-bg: linear-gradient(10deg,$blue-dark,lighten($blue-light,10%));
-$landing-bg: linear-gradient(-155deg,$blue-light,$blue-dark);
+$header-bg: linear-gradient(10deg,$primary,lighten($primary-light,10%));
+$landing-bg: linear-gradient(-155deg,$primary-light,$primary);
+
 
 
 // Text gradients
 
 $highlighted-text-color: lighten($text-color, 10%);
-$textGradient-color: -webkit-linear-gradient(-295deg,$blue-dark,$blue-light);
+$textGradient-color: -webkit-linear-gradient(-295deg,$primary,$primary-light);
 
 
 

@@ -10,13 +10,13 @@ footer {
 				margin-right: $margin-s;
 			}
 			a {
-			color: $blue-dark;
+			color: $primary;
 			font-size: $textSize-xl;
 			&:hover {
 				.twitter,
 				.instagram,
 				.github,
-				.linkedin {
+				.dribbble {
 					transition: all .2s;
 				}
 				.twitter {
@@ -39,7 +39,7 @@ footer {
 		font-family: $sans;
 		font-weight: 600;
 		margin-bottom: $margin-s;
-		color: $blue-dark;
+		color: $primary;
 	}
 }
 

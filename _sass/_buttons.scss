@@ -1,5 +1,5 @@
 .btn-blue {
-	@include btn($blue,$textSize,#fff);
+	@include btn($primary,$textSize,#fff);
 	margin-bottom: $margin-s;
 }
 .btn-back {

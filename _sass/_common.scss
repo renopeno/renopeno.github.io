@@ -34,14 +34,14 @@ body {
   left:0;
   height: 100vh;
   width: 7px;
-  background-color: $red;
+  background-color: $secondary;
 }
 .right-bar {
   top:0;
   right:0;
   height: 100vh;
   width: 7px;
-  background-color: $blue;
+  background-color: $primary;
 }
 .bottom-bar {
   bottom:0;
@@ -49,7 +49,7 @@ body {
   right:0;
   height: 7px;
   width: 100vw;
-  background: linear-gradient(90deg,$red,$blue);
+  background: linear-gradient(90deg,$secondary,$primary);
 }
 .top-bar {
   top:0;
@@ -57,14 +57,14 @@ body {
   right:0;
   height: 7px;
   width: 100vw;
-  background: linear-gradient(90deg,$red,$blue);
+  background: linear-gradient(90deg,$secondary,$primary);
 }
 .title {
 	display: block;
 	text-align: center;
 	border-bottom: none !important;
 	margin-top: $margin-s;
-	@include textGradient($blue-dark, $blue-light, $blue-dark);
+	@include textGradient($primary, $primary-light, $primary);
 	&:hover {
 		border-bottom: none;
 	}
@@ -76,7 +76,7 @@ h1 {
 
 	// typography
 	font-family: $sans;
-  font-size: $textSize-xxxl;
+  font-size: $h1;
   font-weight: 600;
 }
 h2 {

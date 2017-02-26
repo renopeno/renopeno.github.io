@@ -2,49 +2,42 @@
 		position: fixed;
 	 	top:0;
 	 	width:100%;
-	 	background: #fff;
+		background: $white;
 	 	height: $mobile-nav-height;
 	 	overflow: visible;
 	 	z-index: 10;
-
 		nav {
-		text-align: center;
-		ul {
-			list-style: none;
-			position: relative;
-			top: $margin-xs;
-			// margin-right:5%;
-			li {
-				display: inline-block;
-				margin: 0 15px;
+			text-align: center;
+			ul {
+				position: relative;
+				top: $margin-xs;
+				li {
+					display: inline-block;
+					margin: 0 1em;
+					a {
+						font-family: $sans;
+						font-size: $textSize;
+						font-weight: 400;
+						color: $primary;
+						padding-bottom: 5px;
+						transition: all .3s;
+						&:hover {
+							color: $secondary;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+			.nav__item--active a {
+				position: relative;
+				color: $secondary;
+				font-weight: bold;
+				text-transform: uppercase;
+				&:hover {
+					color: $primary;
+				}
 			}
 		}
-		a {
-			font-family: $sans;
-			font-size: $textSize;
-			font-weight: 100;
-			color: $blue-dark;
-			padding-bottom: 5px;
-			transition: all .3s;
-			&:hover {
-				color: $red;
-				text-decoration: none;
-			}
-
-		}
-		.nav__item--active a {
-			position: relative;
-			border-bottom: 2px solid $red;
-			color: $red;
-			font-weight: bold;
-			&:hover {
-				color: $blue-dark;
-				border-bottom: 2px solid $blue-dark;
-			}
-
-
-		}
-	}
 	}
 
  // - end 760px

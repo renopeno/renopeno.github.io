@@ -1,48 +1,32 @@
-// Post wrapper
-
-article.container.post {
-	margin-top: $header-height + $margin-xs;
-	padding: $margin-s;
-
-	background: $white;
-	border-radius: 5px;
-	// border-bottom: 2px solid #ddd;
-}
-
 // Post content
 
 .post {
 	position: relative;
-	padding-top: $header-height;
-	margin: 0 auto $margin-s auto;
-	max-width: 768px;
+	margin: $mobile-nav-height auto $margin-s auto;
+	padding: $margin-s $margin-xs;
 
+	max-width: 768px;
+	font-family: $sans;
 	p {
 		margin-bottom: $margin-s;
-
-		// typography
-		font-family: $sans;
 		font-size: $textSize-m;
 		font-weight: 400;
-		line-height: 1.6;
-		color: $text-color;
+		line-height: 1.5;
 	}
-
 	a {
-	// typography
-	color: $blue-light;
+	color: $secondary;
 	border-bottom: 1px solid #e6dfdf;
 		&:hover,&:focus {
 			text-decoration: none;
-			color: $blue;
-			border-bottom: 1px solid $blue-light;
+			color: $primary-light;
+			border-bottom: 1px solid $primary-light;
 		}
 	}
 	blockquote {
     padding: 15px 30px 15px 15px;
     margin: $margin-s 0;
-    background-color: rgba($blue,.07);
-    border-left: 5px solid rgba($blue,.3);
+    background-color: rgba($primary,.07);
+    border-left: 5px solid rgba($primary,.3);
 		font-size: $textSize;
 		font-family: $sans;
 		white-space: normal;
@@ -52,24 +36,20 @@ article.container.post {
 		font-family: $sans;
 		font-size: $textSize;
 		font-weight: 600;
-		color: $blue;
+		color: $primary;
 		&:hover {
-			color: $blue-light;
+			color: $primary-light;
 		}
 	}
 }
 
 .post__container {
-		display: block;
-		background: $white;
-
-		margin: $margin-xs auto;
-		padding: $margin-s;
-
-		border-radius: 30px;
-
-		box-shadow: 0 0 40px rgba(0,0,0,.07);
+	border-radius: 0;
+	margin-top: $margin-xs;
+	padding: $margin-s $margin-xs;
+	box-shadow: 0 0 40px rgba(0,0,0,.07);
 }
+
 .post-image {
 		height: 300px;
 		width: 100%;
@@ -89,9 +69,7 @@ article.container.post {
 
 
 a {
-	// typography
 	color: $text-color;
-
 	&:hover,&:focus {
 		text-decoration: none;
 		color: $text-color;
@@ -102,7 +80,7 @@ h1 a {
 	display: block; // mora biti radi duzih naslova koji nestaju na manjim uredajima
 	text-align: left;
 	border-bottom: none !important;
-	@include textGradient($blue, $blue-light, $blue);
+	@include textGradient($primary, $primary-light, $primary);
 	&:hover {
 		border-bottom: none;
 	}
@@ -135,7 +113,7 @@ img {
 	padding: $margin-s 0;
 
 	// typography
-	@include textGradient($blue-dark,$blue-light,$blue-dark);
+	@include textGradient($primary,$primary-light,$primary);
 	font-size: $textSize-l;
 	font-style: italic;
 	font-weight: 600;
@@ -154,24 +132,14 @@ img {
 
 // Breakpoints
 
-@media all and (max-width:760px) {
-	article.container.post {
-		margin-top: $mobile-nav-height + $margin-xs;
-		padding: $margin-s $margin-xs;
-		padding-top: 0;
-	}
-
+@media all and (min-width:760px) {
 	.post {
-		margin-top: $margin-s;
-	}
-
-	p {
-		font-size: 18px;
+		margin: $margin-s auto;
+		padding-top: $header-height;
 	}
 	.post__container {
-		border-radius: 0;
-		margin-top: -$margin-s + 6px;
-		margin-bottom: $margin-s + 16px;
-		padding: $margin-s $margin-xs;
+			margin: $margin-xs auto;
+			padding: $margin-s;
+			box-shadow: 0 0 40px rgba(0,0,0,.07);
 	}
 }
