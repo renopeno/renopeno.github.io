@@ -102,7 +102,7 @@ h1 a {
 	display: block; // mora biti radi duzih naslova koji nestaju na manjim uredajima
 	text-align: left;
 	border-bottom: none !important;
-	@include textGradient($blue-dark, $blue-light, $blue);
+	@include textGradient($blue, $blue-light, $blue);
 	&:hover {
 		border-bottom: none;
 	}
