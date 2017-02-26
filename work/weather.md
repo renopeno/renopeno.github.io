@@ -5,17 +5,13 @@ layout: page
 
 <h1 class="title">Weather</h1>
 
-<h2 class="title">React project</h2>
+<h4 class="project-subtitle">React, API</h4>
 
 <div class="project-portfolio-image-post">
-  <a href="/img/portfolio/weather.png">
-    <img src="/img/portfolio/weather.png" alt="weather" />
-  </a>
+  <img src="/img/portfolio/weather.png" alt="weather" />
 </div>
 <div class="project-portfolio-image-post">
-  <a href="/img/portfolio/weather-with-temp.png">
-    <img src="/img/portfolio/weather-with-temp.png" alt="weather with temperature" />
-  </a>
+  <img src="/img/portfolio/weather-with-temp.png" alt="weather with temperature" />
 </div>
 <br>
 

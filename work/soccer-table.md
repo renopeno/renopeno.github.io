@@ -5,7 +5,7 @@ layout: page
 
 <h1 class="title">Soccer Table</h1>
 
-<h2 class="title">React component</h2>
+<h4 class="project-subtitle">React, fetch, API</h4>
 
 <div class="project-portfolio-image-post">
   <a href="https://github.com/renopeno/soccer-tables">

@@ -5,7 +5,7 @@ layout: page
 
 <h1 class="title">Calculator</h1>
 
-<h2 class="title">My first JavaScript little project</h2>
+<h4 class="project-subtitle">Vanilla JS <br>(my first JS project)</h4>
 
 <div class="project-portfolio-image-post">
   <a href="/img/portfolio/calc-header.png">

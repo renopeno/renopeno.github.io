@@ -5,7 +5,7 @@ layout: page
 
 <h1 class="title">Alias game</h1>
 
-<h2 class="title">React game</h2>
+<h4 class="project-subtitle">React, React Router</h4>
 
 <div class="project-portfolio-image-post">
     <img src="/img/portfolio/alias/alias-1.png" alt="alias-wallpaper" />
