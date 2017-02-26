@@ -2,7 +2,7 @@
 	max-width: 768px;
 	margin-top: $mobile-nav-height;
 	margin-bottom: $margin-xs;
-	padding: $margin-s;
+	padding: 0;
 	p {
 		margin-bottom: $margin-s;
 
@@ -12,6 +12,7 @@
 		font-weight: 400;
 		line-height: 1.6;
 		color: $text-color;
+		padding: $margin-xs;
 	}
 	a {
 		color: $secondary;

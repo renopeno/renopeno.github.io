@@ -3,7 +3,7 @@ layout: page
 ---
 
 
-<h1 class="title">Alias game</h1>
+<h1 class="title fz-5em">Alias</h1>
 
 <h4 class="project-subtitle">React, React Router</h4>
 

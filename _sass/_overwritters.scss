@@ -11,3 +11,12 @@
 	display: inline-block;
 	max-width: 49%;
 }
+.fz-5em {
+	font-size: 3em !important;
+}
+
+@media screen and (min-width: 760px) {
+	.fz-5em {
+		font-size: 5em !important;
+	}
+}

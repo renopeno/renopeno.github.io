@@ -3,14 +3,12 @@ layout: page
 ---
 
 
-<h1 class="title">Soccer Table</h1>
+<h1 class="title fz-5em">Standings</h1>
 
 <h4 class="project-subtitle">React, fetch, API</h4>
 
 <div class="project-portfolio-image-post">
-  <a href="https://github.com/renopeno/soccer-tables">
     <img src="/img/portfolio/soccer-table.png" alt="" />
-  </a>
 </div>
 <br>
 

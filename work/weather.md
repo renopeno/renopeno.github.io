@@ -3,7 +3,7 @@ layout: page
 ---
 
 
-<h1 class="title">Weather</h1>
+<h1 class="title fz-5em">Weather</h1>
 
 <h4 class="project-subtitle">React, API</h4>
 
