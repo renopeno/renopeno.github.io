@@ -8,7 +8,7 @@ html {
 
 body {
 	font-family: 'Noto Serif', serif;
-	background: #F8F8F8;
+	background: #fff;
 	color: $text-color;
 	font-size: 16px;
 	font-weight: 400;
@@ -24,11 +24,12 @@ body {
 }
 .left-bar,
 .right-bar,
-.bottom-bar {
+.bottom-bar,
+.top-bar {
+  position: fixed;
   z-index: 14;
 }
 .left-bar {
-  position: fixed;
   top:0;
   left:0;
   height: 100vh;
@@ -36,7 +37,6 @@ body {
   background-color: $red;
 }
 .right-bar {
-  position: fixed;
   top:0;
   right:0;
   height: 100vh;
@@ -44,8 +44,15 @@ body {
   background-color: $blue;
 }
 .bottom-bar {
-  position: fixed;
   bottom:0;
+  left:0;
+  right:0;
+  height: 7px;
+  width: 100vw;
+  background: linear-gradient(90deg,$red,$blue);
+}
+.top-bar {
+  top:0;
   left:0;
   right:0;
   height: 7px;
@@ -120,7 +127,8 @@ code {
 @media all and (max-width:760px) {
   .left-bar,
   .right-bar,
-  .bottom-bar {
+  .bottom-bar,
+  .top-bar {
     display: none;
   }
 

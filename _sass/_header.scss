@@ -2,42 +2,56 @@
 		position: fixed;
 	 	top:0;
 	 	width:100%;
-	 	background: $white;
+	 	background: #fff;
 	 	height: $mobile-nav-height;
 	 	overflow: visible;
-	 	box-shadow: 0 1px 15px rgba(0,0,0,.2);
-	 	z-index: 15;
-	 	transition: top 0.2s ease-in-out;
+	 	z-index: 10;
 
-		.avatar-vector {
-			position: absolute;
-			top: 4px;
-			left: 50%;
-			transform: translateX(-50%);
-
-			height: 48px;
-			width: 48px;
-
-			background-image: url("../img/RM-Red.svg");
-			background-size: cover;
-			background-position: center;
-
-			border-radius: 100%;
-			z-index: 6;
+		nav {
+		text-align: center;
+		ul {
+			list-style: none;
+			position: relative;
+			top: $margin-xs + 6px;
+			// margin-right:5%;
+			li {
+				display: inline-block;
+				margin: 0 15px;
+			}
 		}
+		a {
+			font-family: $sans;
+			font-size: $textSize;
+			font-weight: 100;
+			color: $blue-dark;
+			padding-bottom: 5px;
+			transition: all .3s;
+			&:hover {
+				color: $red;
+				text-decoration: none;
+			}
+
+		}
+		.nav__item--active a {
+			position: relative;
+			border-bottom: 2px solid $red;
+			color: $red;
+			font-weight: bold;
+			&:hover {
+				color: $blue-dark;
+				border-bottom: 2px solid $blue-dark;
+			}
+
+
+		}
+	}
 	}
 
  // - end 760px
 
 
  @media all and (min-width: 760px) {
- header {
- 	height: $header-height;
- 	.avatar-vector {
- 					top: 6px;
- 					height: 52px;
- 					width: 52px;
- 	}
-
- }
- }
+	 header {
+	 	height: $header-height;
+	}
+}

@@ -3,19 +3,6 @@ layout: page
 title: Work
 permalink: /work/
 ---
-<div class="text-center">
-  <h1 class="title">Contact me</h1>
-</div>
-<br>
-<p class="text-center">
-  Hey! If you want to <strong>hire me</strong>, or just say <strong>hello</strong> <br>
-  <a href="mailto:{{ site.email }}">write me an e-mail </a>
-</p>
-
-<br>
-
-
-
 
 <div class="text-center">
 <h1 class="title">My projects</h1>
@@ -23,6 +10,18 @@ permalink: /work/
 <br>
 
 <div class="col-sm-12 project">
+  <a href="alias">
+    <div class="project-item">
+      <div class="project-title">
+        Alias - word game
+      </div>
+      <div class="project-img" style="background-image: url('/img/portfolio/alias/alias-1.png'); background-position: top;">
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="col-sm-12 col-md-6 project">
   <a href="soccer-table">
     <div class="project-item">
       <div class="project-title">
@@ -46,7 +45,7 @@ permalink: /work/
   </a>
 </div>
 
-<div class="col-sm-12 col-md-6 project">
+<div class="col-sm-12 project">
   <a href="calculator">
     <div class="project-item">
       <div class="project-title">

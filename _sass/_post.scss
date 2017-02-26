@@ -6,7 +6,7 @@ article.container.post {
 
 	background: $white;
 	border-radius: 5px;
-	border-bottom: 2px solid #ddd;
+	// border-bottom: 2px solid #ddd;
 }
 
 // Post content
@@ -66,8 +66,9 @@ article.container.post {
 		margin: $margin-xs auto;
 		padding: $margin-s;
 
-		border-radius: 5px;
-		border-bottom: 2px solid #ddd;
+		border-radius: 30px;
+
+		box-shadow: 0 0 40px rgba(0,0,0,.07);
 }
 .post-image {
 		height: 300px;
@@ -115,7 +116,7 @@ img {
 	margin: 0 auto;
 	margin-top: $margin-s;
 	text-align: center;
-	box-shadow: .2em .2em 1em rgba(0,0,0,.3);
+	box-shadow: .2em 0em 2em rgba(0,0,0,.2);
 }
 .post__meta {
 	display: block;

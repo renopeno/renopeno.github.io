@@ -9,11 +9,13 @@
     <span class="burger-icon"></span>
   </a>
 
-  <a href="{{ "/" | prepend: site.baseurl }}" class="avatar-vector"></a>
+  <!-- <a href="{{ "/" | prepend: site.baseurl }}" class="header-logo"></a> -->
 
   <nav role="navigation" id="nav">
     <ul>
-
+      <li class="nav__item">
+        <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
+      </li>
       {% for page in site.pages %}
       <!-- Compare the page title to the URL -->
 

@@ -45,16 +45,12 @@ html {
 				margin-top: $margin-s;
 				margin-bottom: $margin-s/2;
 				transition: all .3s;
-				&:hover {
-					transform: rotate(25deg);
-				}
 				a {
-					transition: all .1s;
+					transition: all .3s;
 					padding: 0 25px;
 					border: 1px solid transparent;
 					font-family: $sans;
 					font-size: $textSize-xxl;
-					font-weight: 400;
 					color: $white;
 					&:hover {
 						color: $red;
@@ -79,13 +75,6 @@ html {
 				}
 				&:hover {
 					a {
-						.twitter,
-						.instagram,
-						.github,
-						.linkedin {
-							transition: all .2s;
-							transform: rotate(-25deg);
-						}
 						.twitter {
 							color: $twitter;
 						}
