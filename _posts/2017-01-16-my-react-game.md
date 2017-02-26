@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My React game
-image: logo-blue-circle.svg
+image: logo-colored.svg
 ---
 
 For the last few months, I've been working on my personal web game version of popular board game - [Alias](https://en.wikipedia.org/wiki/Alias_(board_game)).
