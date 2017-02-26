@@ -41,10 +41,30 @@
 	}
 
  // - end 760px
-
+.header-shadow {
+	position: fixed;
+	height: $mobile-nav-height;
+	width: 80%;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0 5px 15px rgba(0,0,0,.07);
+}
 
  @media all and (min-width: 760px) {
 	 header {
 	 	height: $header-height;
+		nav {
+			text-align: center;
+			ul {
+				position: relative;
+				top: $margin-xs + 6px;
+			}
+		}
+	}
+	.header-shadow {
+		height: $header-height;
+		width: 35%;
+		box-shadow: 0 5px 25px rgba(0,0,0,.07);
 	}
 }
