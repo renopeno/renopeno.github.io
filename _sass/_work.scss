@@ -1,64 +1,64 @@
 .project {
-  height: 200px;
-	padding: 10px;
-  text-align: center;
-	font-family: $sans;
-	transition: all .3s;
-  &-item {
-    position: relative;
-    height: 100%;
-    width: 100%;
-  }
+    height: 200px;
+  	padding: 10px;
+    text-align: center;
+  	font-family: $sans;
+  	transition: all .3s;
+    -webkit-backface-visibility: hidden;
+    &-item {
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    &-title {
+  		opacity: 0;
+      position: absolute;
+  		top: 0;
+      bottom: 0;
+      right: 0;
+  		left: 0;
+      background: rgba($secondary,.8);
+      font-size: $textSize-l;
+      font-weight: 600;
+  		text-transform: uppercase;
+      color: $white;
+  		text-align: center;
+  		padding-top: 75px;
+  		transition: all .3s;
+    }
+  	&-subtitle {
+  		font-size: 1.25em;
+  		text-align: center;
+  		font-weight: 400;
+  		margin-top: $margin-xs;
+  		color: #ccc;
+  	}
+    &-img {
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-position: top;
+    }
+  	&-portfolio-item {
+  		display: block;
+  		height: 300px;
+  		width: 100%;
+  		overflow-y: hidden;
+  		margin-top: $margin-s;
+  		margin-bottom: $margin-s;
 
-  &-title {
-		opacity: 0;
-    position: absolute;
-		top: 0;
-    bottom: 0;
-    right: 0;
-		left: 0;
-    background: rgba($secondary,.8);
-    font-size: $textSize-l;
-    font-weight: 600;
-		text-transform: uppercase;
-    color: $white;
-		text-align: center;
-		padding-top: 75px;
-		transition: all .3s;
-  }
-	&-subtitle {
-		font-size: 1.25em;
-		text-align: center;
-		font-weight: 400;
-		margin-top: $margin-xs;
-		color: #ccc;
-	}
-
-  &-img {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-position: top;
-  }
-	&-portfolio-item {
-		display: block;
-		height: 300px;
-		width: 100%;
-		overflow-y: hidden;
-		margin-top: $margin-s;
-		margin-bottom: $margin-s;
-
-	}
-	&-portfolio-image-post {
-		width: 100%;
-		overflow-y: hidden;
-		text-align: center;
-		padding-bottom: .75em;
-	}
-}
-
-.project:hover .project-title {
-	opacity: 1;
-	transition: all .3s;
-	box-shadow: 0 0 25px $secondary;
+  	}
+  	&-portfolio-image-post {
+  		width: 100%;
+  		overflow-y: hidden;
+  		text-align: center;
+  		padding-bottom: .75em;
+  	}
+    &:hover {
+      transform: translateZ(0) scale(1.05) rotate(0.0001deg);
+    }
+    &:hover .project-title {
+      opacity: 1;
+    	transition: all .3s;
+    }
 }
