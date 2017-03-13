@@ -22,49 +22,11 @@ body {
 .bg-fff {
 	background-color: #fff;
 }
-.left-bar,
-.right-bar,
-.bottom-bar,
-.top-bar {
-  position: fixed;
-  z-index: 14;
-}
-.left-bar {
-  top:0;
-  left:0;
-  height: 100vh;
-  width: 7px;
-  background-color: $secondary;
-}
-.right-bar {
-  top:0;
-  right:0;
-  height: 100vh;
-  width: 7px;
-  background-color: $primary;
-}
-.bottom-bar {
-  bottom:0;
-  left:0;
-  right:0;
-  height: 7px;
-  width: 100vw;
-  background: linear-gradient(90deg,$secondary,$primary);
-}
-.top-bar {
-  top:0;
-  left:0;
-  right:0;
-  height: 7px;
-  width: 100vw;
-  background: linear-gradient(90deg,$secondary,$primary);
-}
+
 .title {
-	display: block;
 	text-align: center;
 	border-bottom: none !important;
 	margin-top: $margin-s;
-	@include textGradient($primary, $primary-light, $primary);
 	&:hover {
 		border-bottom: none;
 	}
@@ -73,11 +35,13 @@ body {
 h1 {
 	display: block;
 	border-bottom: none !important;
+  // text-transform: uppercase;
+  color: $primary !important;
 
 	// typography
 	font-family: $sans;
   font-size: $h1;
-  font-weight: 600;
+  font-weight: 800;
 }
 h2 {
   margin-top: 2em;
@@ -86,7 +50,7 @@ h2 {
   // typography
   font-family: $sans;
 	font-size: $textSize-xxl;
-  font-weight: 600;
+  font-weight: 700;
 }
 h3 {
   margin-top: 2em;
@@ -95,7 +59,7 @@ h3 {
   // typography
   font-family: $sans;
 	font-size: $textSize-xl;
-  font-weight: 600;
+  font-weight: 700;
 }
 h4 {
   margin-top: 2em;
@@ -105,7 +69,7 @@ h4 {
 	color: $black;
 	font-family: $sans;
 	font-size: $textSize-l;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 a {
@@ -125,12 +89,6 @@ code {
 }
 
 @media all and (max-width:760px) {
-  .left-bar,
-  .right-bar,
-  .bottom-bar,
-  .top-bar {
-    display: none;
-  }
 
   h1 {
   	font-size: $textSize-xl;
