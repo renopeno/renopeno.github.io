@@ -1,3 +1,3 @@
-#My personal website
+# My personal website
 
 [renatomandic.com](https://renatomandic.com)
