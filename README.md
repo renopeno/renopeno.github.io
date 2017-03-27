@@ -1,3 +1,3 @@
 #My personal website
 
-[renatomandic.com]('renatomandic.com')
+[renatomandic.com](https://renatomandic.com)
