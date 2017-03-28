@@ -10,7 +10,10 @@ layout: page
 <div class="project-portfolio-image-post">
     <img src="/img/portfolio/alias/alias-1.png" alt="alias-wallpaper" />
 </div>
+
 <br>
+
+Play now (beta version) @ [playalias.com](https://playalias.com)
 
 Alias is words game I play with my friends on a weekly basis.
 Since there wasn't any app made for iPhone users that has Croatian dictionary, I decided to try and create one on a universal platform - WEB.

@@ -7,7 +7,6 @@ html {
 }
 
 body {
-	font-family: 'Noto Serif', serif;
 	background: #fff;
 	color: $text-color;
 	font-size: 16px;
@@ -22,7 +21,13 @@ body {
 .bg-fff {
 	background-color: #fff;
 }
-
+img {
+	display: inline-block;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: $margin-s;
+	text-align: center;
+}
 .title {
 	text-align: center;
 	border-bottom: none !important;

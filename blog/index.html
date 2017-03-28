@@ -13,7 +13,9 @@ title: Blog
         </div>
 
         {{post.excerpt}}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read More</a>
+
+        <!-- ReadMore gumb -->
+          <a href="{{ post.url | prepend: site.baseurl }}" class="read-more"></a>
     </li>
   {% endfor %}
 

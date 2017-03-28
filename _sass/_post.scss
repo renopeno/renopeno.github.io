@@ -33,27 +33,22 @@
 		line-height: 1.5;
 	}
 	.read-more {
-		display: block;
-		width: 150px;
-		text-align: center;
-		border: 0;
-		margin: 0 auto;
-		padding: .5em;
-		font-family: $sans;
-		font-size: $textSize;
-		text-transform: uppercase;
-		font-weight: 600;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
 		transition: all .17s ease-in-out;
-		color: $primary;
+		border: 0;
 		&:hover {
-			background: $primary;
-			color: $white;
 			border: 0;
+			text-decoration: none;
 		}
 	}
 }
 
 .post__container {
+	position: relative;
 	border-radius: 0;
 	margin-top: $margin-xs;
 	padding: $margin-s $margin-xs;
@@ -99,17 +94,6 @@ h1 a {
 	&:hover {
 		border-bottom: none;
 	}
-}
-
-
-
-img {
-	display: inline-block;
-	max-width: 80%;
-	margin: 0 auto;
-	margin-top: $margin-s;
-	text-align: center;
-	box-shadow: .2em 0em 2em rgba(0,0,0,.2);
 }
 .post__meta {
 	display: block;
