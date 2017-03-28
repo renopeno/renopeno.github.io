@@ -2,13 +2,12 @@
 layout: page
 ---
 
-
 <h1 class="title fz-5em">Alias</h1>
 
 <h4 class="project-subtitle">React, React Router</h4>
 
 <div class="project-portfolio-image-post">
-    <img src="/img/portfolio/alias/alias-1.png" alt="alias-wallpaper" />
+    <img src="/img/portfolio/alias/alias.png" alt="alias-wallpaper" />
 </div>
 
 <br>

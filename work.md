@@ -15,7 +15,7 @@ permalink: /work/
       <div class="project-title">
         Alias - word game
       </div>
-      <div class="project-img" style="background-image: url('/img/portfolio/alias/alias-1.png'); background-position: top;">
+      <div class="project-img" style="background-image: url('/img/portfolio/alias/alias.png'); background-position: top;">
       </div>
     </div>
   </a>
